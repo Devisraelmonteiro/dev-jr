@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Botão com efeito hover</title>
+<title> campo login</title>
+<body>
+
+<section class="area-login" ng-app="Login">
+  <div class="login">
+    <form (ngSubmit)="onSubmit()" ng-init="username='admin';password='1234'">
+      <img src="assets/img/may-bank.svg" alt="logo may bank">
+      <h1>Bem-vindo</h1>
+      <p>Por favor, entre com seu login e senha.</p>
+      <label for="username">Login</label>
+      <input type="text" id="username "placeholder="nome de usuário" [(ngModel)]="username" name="username"required autocomplete="username">
+      <br>
+      <label for="password">Senha</label>
+      <input type="password" id="password"placeholder="sua senha " [(ngModel)]="password" name="password" required autocomplete="current-password">
+      <br>
+      <label for="twofa">Código de 2FA</label>
+      <input type="text" id="twofa" placeholder="código de 2FA" [(ngModel)]="twofa" name="twofa" required autocomplete="current-2fa">
+      <br>
+      <button class="botao" (click)="onSubmit()" type="submit">Entrar</button>
+    </form>
+    <p>Esqueceu sua senha? <a href="#">Redefinir senha</a></p>
+  </div>
+</section>
+
+</body>
+</html>

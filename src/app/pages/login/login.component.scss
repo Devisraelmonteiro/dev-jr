@@ -1,0 +1,129 @@
+.area-login {
+  background-color: rgba(67, 134, 81, 0.8);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 98vh;
+}
+
+.login {
+  background-color: rgba(217, 223, 216, 0.938);
+  width: 300px;
+  height: 650px;
+  box-shadow: 0 1px 5px 0  rgba(226, 233, 228, 0.747), 0 3px 5px 0 rgb(13, 58, 2);
+  border: 2px solid rgba(228, 231, 229, 0.452);
+  padding: 60px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: rgba(255, 255, 255, 0.719);
+  color: rgb(7, 7, 7);
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 0.1px solid rgba(8, 77, 23, 0.226);
+  height: 40px;
+  width: 100%;
+  outline: none;
+  padding-left: 10px;
+
+}
+
+img {
+  //border: 0.3cap solid rgba(134, 189, 146, 0.089);
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-radius: 0;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #206e3e;
+  text-align: center;
+  font-size: 26px;
+
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+p {
+  font-size: 0.9rem;
+  margin-bottom: 40px;
+  color: #747373e3;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 1.0rem;
+  margin-top: px;
+  margin-bottom: px;
+  color: #206e3e;;
+  text-align: left;
+  width: 100%;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: rgba(59, 143, 73, 0.596);
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+//button {
+ // margin-top: 40px;
+ // padding: 12px 20px;
+ // background-color: #2e9144;
+ // font-size: 1.0rem; /* Ajustado para 100% */
+ // color: #fff;
+ // border: none;
+ // border-radius: 20px;
+ // cursor: pointer;
+//}
+
+button:disabled {
+  background-color: #dbf1e3;
+  cursor: not-allowed;
+}
+
+a {
+  color: rgb(66, 180, 214);
+  text-decoration: none;
+  margin-left: 1px;
+}
+
+  .botao {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 13px 135px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .botao:hover {
+    background-color:  #2e9144;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 7px 10px 0  #1aa11a4b, 0 17px 300px 0 rgba(0,0,0,0.19);
+  }
